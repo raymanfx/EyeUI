@@ -1,0 +1,11 @@
+[package]
+name = "eye_ui"
+version = "0.1.0"
+authors = ["Christopher N. Hesse <raymanfx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+eye = { git = "https://github.com/raymanfx/eye-rs", branch = "next" }
+gdk-pixbuf = { version = "^0.8", features = ["v2_32"] }
+glib = "^0.9"
+gtk = "^0.8"
